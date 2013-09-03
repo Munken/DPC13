@@ -21,12 +21,18 @@
   <ItemGroup>
     <ClCompile Include="cuda_utilities.cpp" />
     <ClCompile Include="error.cpp" />
+    <ClCompile Include="glsl_shader.cpp" />
     <ClCompile Include="image2d.cpp" />
+    <ClCompile Include="image2d_opengl.cpp" />
+    <ClCompile Include="opengl_utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cuda_utilities.h" />
     <ClInclude Include="error.h" />
+    <ClInclude Include="glsl_shader.h" />
     <ClInclude Include="image2d.h" />
+    <ClInclude Include="image2d_opengl.h" />
+    <ClInclude Include="opengl_utilities.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="float_util.hcu" />
